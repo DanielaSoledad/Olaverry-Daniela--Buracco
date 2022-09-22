@@ -1,0 +1,32 @@
+.encabezado {
+    padding: 20px; 
+}
+
+.menu {
+    list-style-type: none;
+   background-color: $mainColor;
+   padding: 20px;
+   font-size: 20px;
+ }
+   
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    }
+
+.menu li a {
+    color: $secondaryColor;
+    font-family: $mainfont;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+   display: flex;
+   height: 70px;
+   background-color: $mainColor;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
