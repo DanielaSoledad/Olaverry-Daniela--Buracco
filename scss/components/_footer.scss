@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&display=swap');
+
+footer {
+list-style-type: none;
+background-color: $mainColor;
+padding: 10px;
+font-size: 10px;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+.copy2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.copy {
+    background-color: $mainColor;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+$tarjetas: (
+visa: blue,
+mastercard: orange,
+qrcode: white,
+moped: yellow 
+)

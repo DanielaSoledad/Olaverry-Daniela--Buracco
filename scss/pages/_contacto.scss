@@ -1,0 +1,19 @@
+.register {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+     "caja1 caja1"
+     "caja2 caja2";
+}
+
+
+.color {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}

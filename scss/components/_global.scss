@@ -32,3 +32,11 @@ h5{
     padding: 10px;
 }
 
+
+
+
+@media all and (max-width: 200px) {
+    .header {
+        background-color: grey;
+    }
+}
